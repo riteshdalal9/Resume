@@ -1,0 +1,176 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Graduate Curriculum Vitae
+% LaTeX Template
+% Version 1.2 (3/28/15)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Rensselaer Polytechnic Institute 
+% (http://www.rpi.edu/dept/arc/training/latex/resumes/)
+%
+% Modified by:
+% Daniel L Marks <xleafr@gmail.com> 3/28/2015
+% 
+% Further modified by:
+% Rohan Bavishi <rohan.bavishi95@gmail.com> 9/20/2016
+%
+% Important note:
+% This template requires the simple_style.cls file to be in the same directory 
+% as the .tex file. The res.cls file provides the resume style used for 
+% structuring the document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%-------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%-------------------------------------------------------------------------------
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% You can have multiple style options the legal options ones are:
+%
+%   centered:	the name and address are centered at the top of the page 
+%				(default)
+%
+%   line:		the name is the left with a horizontal line then the address to
+%				the right
+%
+%   overlapped:	the section titles overlap the body text (default)
+%
+%   margin:		the section titles are to the left of the body text
+%		
+%   11pt:		use 11 point fonts instead of 10 point fonts
+%
+%   12pt:		use 12 point fonts instead of 10 point fonts
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[mm]{simple_style}  
+
+% Default font is the helvetica postscript font
+\usepackage{helvet}
+\usepackage{hyperref}
+\usepackage{url}
+\usepackage{xcolor}
+\hypersetup {
+    colorlinks=true,
+    linkcolor=colorlink,
+    filecolor=magenta,      
+    urlcolor=colorlink,
+}
+\usepackage[left=0.7in, right=2in, top=0.9in]{geometry}
+
+% Increase text height
+\textheight=700pt
+
+\begin{document}
+
+%-------------------------------------------------------------------------------
+%	NAME AND ADDRESS SECTION
+%-------------------------------------------------------------------------------
+\name{Ritesh Dalal}
+\qualification{Fourth-Year Undergraduate, Computer Science, RCOEM}
+\emailone{riteshdalal9@gmail.com}
+\emailtwo{dalalrp@rknec.edu}
+\github{https://github.com/riteshdalal9}{\url{github.com/riteshdalal9}}
+\phone{+91-94-224-24902}
+\address{Plot no-215\\Jai Durga Society No-1\\Narendra Nagar\\Nagpur, Maharashtra, India}
+%-------------------------------------------------------------------------------
+
+\begin{resume}
+
+%-------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%-------------------------------------------------------------------------------
+\section{Education}
+Secured  \cusemph{89.8\%} in SSC 2011 | Narayana Vidyalayam, Nagpur\\
+Secured  \cusemph{75\%} in HSC 2013 | Mokhare college, Nagpur\\
+\cusemph{Shri Ramdeobaba college of engineering and management, Nagpur}, Maharashtra, India\\
+{\sl Bachelor of Technology}, Computer Science and Engineering\\
+\cusemph{CGPA: 6.40/10}\\
+\sectionline
+%-------------------------------------------------------------------------------
+
+
+%-------------------------------------------------------------------------------
+%       AWARDS & ACHIEVEMENTS	
+%-------------------------------------------------------------------------------
+\section{Awards \& Achievements}
+\cusemph{Represented Nagpur District in state chess meet}\\
+Selected for \cusemph{divisional} chess meet in 8th and 9th standard\\
+Secured highest grade possible in Java course by Government Polytechnic, Nagpur\\
+Completed ethical hacking course hosted by college\\
+
+\vspace{-2ex}
+\sectionline
+%-------------------------------------------------------------------------------
+
+
+%-------------------------------------------------------------------------------
+%	PROJECTS SECTION
+%-------------------------------------------------------------------------------
+\section{Projects}
+\begin{project}
+\title{Client and Server Chat using Java}
+\duration{Jan '18 - April '18}
+\description{
+	- A Client Server chat using java.io and java.net\\
+	- Using Swing and Event Listeners a full scale chat applications can be deployed\\
+	- Using MultiThreading multiple clients can talk to each other over a server\\
+}
+\end{project}
+\begin{project}
+\title{Swing application for student database}
+\duration{Jan '18 - April '18}
+\description{
+	- UI developed using java.swing package and listeners using java.event package\\
+	- Data fetched from a database using JDBC\\
+	- ActionListener used for save, edit, show buttons\\ 
+}
+\end{project}
+\begin{project}
+\title{Chatbot}
+\duration{July '18 - Oct '18}
+\description{
+	- Using deep learning to train chatbot instead of hard coded answers\\
+	- End-to-End system trained on one dataset\\
+	- Sequence of input is feed to recurrent neural net while training in recurring loop\\
+}
+\end{project}
+\begin{project}
+\title{Router firewall implementation on computer}
+\duration{Aug '18 - Aug '18}
+\description{
+	- Package routing based on static routes, firewall rule or multiple gateways for load balancing\\
+	- Configuring server load balancing on live and hot-standby setup\\
+	- Storing information about state of the firewall, its services, traffic flowing and log data\\
+}
+\end{project}
+\vspace{-1ex}
+\sectionline
+%-------------------------------------------------------------------------------
+
+
+%-------------------------------------------------------------------------------
+%	COMPUTER SKILLS SECTION
+%-------------------------------------------------------------------------------
+\section{Computer\\Skills}
+\cusemph{Languages}: Java, Python, Bash, \LaTeX, SQL 
+\\
+\cusemph{Operating Systems}: Linux(Debian), Windows
+\\
+\cusemph{Tools}: Eclipse, Netbeans, Vim, Tensorflow, Wireshark, Burp Suite, MS Excel\\
+\sectionline
+%-------------------------------------------------------------------------------
+
+%-------------------------------------------------------------------------------
+%	Interests
+%-------------------------------------------------------------------------------
+\section{Extra Interests}
+\cusemph{}Project Euler, SPOJ\\
+\cusemph{Hobbies}: Competitive Programming, Chess\\
+\sectionline
+%-------------------------------------------------------------------------------
+\end{resume}
+\end{document}
